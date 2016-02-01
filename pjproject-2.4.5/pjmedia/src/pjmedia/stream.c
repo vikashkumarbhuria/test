@@ -35,8 +35,7 @@
 #include <pj/rand.h>
 #include <pj/sock_select.h>
 #include <pj/string.h>	    /* memcpy() */
-#include <pjmedia/mediacompressor.h>
-#include <pjmedia/rtphndlr.h>
+
 
 #define THIS_FILE			"stream.c"
 #define ERRLEVEL			1
@@ -76,10 +75,6 @@
 
 /* Number of DTMF E bit transmissions */
 #define DTMF_EBIT_RETRANSMIT_CNT	3
-
-#define TRUE 1
-#define FALSE 0
-pj_uint8_t isCompModuleEnabled = TRUE;
 
 /**
  * Media channel.
@@ -1169,7 +1164,7 @@ static pj_status_t put_frame_imp( pjmedia_port *port,
     void *rtphdr;
     int rtphdrlen;
     int inc_timestamp = 0;
-    pj_uint16_t skipBufLen =0;
+
 
 #if defined(PJMEDIA_STREAM_ENABLE_KA) && PJMEDIA_STREAM_ENABLE_KA != 0
     /* If the interval since last sending packet is greater than
@@ -1298,22 +1293,14 @@ static pj_status_t put_frame_imp( pjmedia_port *port,
 		    "Codec encode() error", status));
 	    return status;
 	}
-	if (isCompModuleEnabled == TRUE){
-		status = MediaComp_generateRTP(&channel->rtp,
-							channel->pt, 0,
-							(int)frame_out.size, rtp_ts_len,
-							(const void**)&rtphdr,
-							&rtphdrlen);
-		PJ_LOG(5, (THIS_FILE, "Silence Frame :generateRTP returned status %d", status));
-	/* Encapsulate. */
-	}else{
-			status = pjmedia_rtp_encode_rtp( &channel->rtp,
 
+	/* Encapsulate. */
+	status = pjmedia_rtp_encode_rtp( &channel->rtp,
 					 channel->pt, 0,
 					 (int)frame_out.size, rtp_ts_len,
 					 (const void**)&rtphdr,
 					 &rtphdrlen);
-	}
+
 
     /* Encode audio frame */
     } else if ((frame->type == PJMEDIA_FRAME_TYPE_AUDIO &&
@@ -1330,36 +1317,23 @@ static pj_status_t put_frame_imp( pjmedia_port *port,
 		    "Codec encode() error", status));
 	    return status;
 	}
-	if (isCompModuleEnabled == TRUE){
-		status = MediaComp_generateRTP(&channel->rtp,
-							channel->pt, 0,
-							(int)frame_out.size, rtp_ts_len,
-							(const void**)&rtphdr,
-							&rtphdrlen);
-		PJ_LOG(5, (THIS_FILE, "Audio Frame :generateRTP returned status %d", status));
-	}else{
+
 	/* Encapsulate. */
 	status = pjmedia_rtp_encode_rtp( &channel->rtp,
 					 channel->pt, 0,
 					 (int)frame_out.size, rtp_ts_len,
 					 (const void**)&rtphdr,
 					 &rtphdrlen);
-	}
+
     } else {
-    	if (isCompModuleEnabled == TRUE){
-    			status = MediaComp_generateRTP(&channel->rtp,
-    								0, 0,0,rtp_ts_len,
-    								(const void**)&rtphdr,
-    								&rtphdrlen);
-    		PJ_LOG(5, (THIS_FILE, "Keep alive frame :generateRTP returned status %d", status));
-    		}else{
+
 	/* Just update RTP session's timestamp. */
 	status = pjmedia_rtp_encode_rtp( &channel->rtp,
 					 0, 0,
 					 0, rtp_ts_len,
 					 (const void**)&rtphdr,
 					 &rtphdrlen);
-    		}
+
     }
 
     if (status != PJ_SUCCESS) {
@@ -1386,28 +1360,10 @@ static pj_status_t put_frame_imp( pjmedia_port *port,
 	return PJ_SUCCESS;
     }
 
-    PJ_LOG(5, (THIS_FILE, "fb status %d",channel->rtp.mediaCompSsn->sendFB));
-    /*compFBACKPkt *fbACKPkt= &(channel->rtp.mediaCompSsn.fbPkt);
-    	PJ_LOG(5,(THIS_FILE,"NOCONTEXT State :fbACKPkt.pkt_typ %d  seq %d",
-    			fbACKPkt->pkt_typ,fbACKPkt->seq));*/
-    if (channel->rtp.mediaCompSsn->sendFB == MEDIACOMP_TRUE){
 
-    	PJ_LOG(5, (THIS_FILE, "Sending feedback pkt of len %d",channel->rtp.mediaCompSsn->fdPktLen));
-//    	  /pj_memcpy(channel->out_pkt, &(channel->rtp.mediaCompSsn->fbPkt), channel->rtp.mediaCompSsn->fdPktLen);
-    	status = pjmedia_transport_send_rtp(stream->transport, &(channel->rtp.mediaCompSsn->fbPkt),
-    			 channel->rtp.mediaCompSsn->fdPktLen);
-    	    if (status != PJ_SUCCESS) {
-    		PJ_LOG(5,(THIS_FILE,"Sending ACK/NACK failed, status %d", status));
-    	    }
-    	    channel->rtp.mediaCompSsn->sendFB = MEDIACOMP_FALSE;
-    }
-    if (isCompModuleEnabled == TRUE){
-    	skipBufLen = sizeof(pjmedia_rtp_hdr) - rtphdrlen;
-    	pj_memcpy(((char*)channel->out_pkt) + skipBufLen, rtphdr, rtphdrlen);
-    }else{
     /* Copy RTP header to the beginning of packet */
-    pj_memcpy(channel->out_pkt, rtphdr, rtphdrlen);
-    }
+    pj_memcpy(channel->out_pkt, rtphdr, sizeof(pjmedia_rtp_hdr));
+
     /* Special case for DTMF: timestamp remains constant for
      * the same event, and is only updated after a complete event
      * has been transmitted.
@@ -1427,16 +1383,10 @@ static pj_status_t put_frame_imp( pjmedia_port *port,
 
     stream->is_streaming = PJ_TRUE;
 
-
-    PJ_LOG(5,(THIS_FILE,"Send RTP of len %d, skipbufLen %d", rtphdrlen,skipBufLen));
     /* Send the RTP packet to the transport. */
-    if (isCompModuleEnabled == TRUE){
-        status = pjmedia_transport_send_rtp(stream->transport, (((char*)channel->out_pkt) + skipBufLen),
-                                            frame_out.size + rtphdrlen);
-    }else{
     status = pjmedia_transport_send_rtp(stream->transport, channel->out_pkt,
-                                        frame_out.size + rtphdrlen);
-    }
+                                        frame_out.size +
+					    sizeof(pjmedia_rtp_hdr));
     if (status != PJ_SUCCESS) {
 	PJ_PERROR(4,(stream->port.info.name.ptr, status,
 		     "Error sending RTP"));
@@ -1676,11 +1626,10 @@ static void on_rx_rtp( void *data,
     const pjmedia_rtp_hdr *hdr;
     const void *payload;
     unsigned payloadlen;
-    TransportPktType pkttype;
     pjmedia_rtp_status seq_st;
-    pj_status_t status,status_t;
+    pj_status_t status;
     pj_bool_t pkt_discarded = PJ_FALSE;
-    PJ_LOG(5,(THIS_FILE,"Bytes read %ld",bytes_read));
+
     /* Check for errors */
     if (bytes_read < 0) {
 	status = (pj_status_t)-bytes_read;
@@ -1698,27 +1647,12 @@ static void on_rx_rtp( void *data,
     }
 
     /* Ignore keep-alive packets */
-   /* if (bytes_read < (pj_ssize_t) sizeof(pjmedia_rtp_hdr))
-	return;*/
-  /*  pkttype = getRTPPktType(pkt);
-	if (pkttype == PJSIP_PKT_TYPE_ACK ||
-			pkttype == PJSIP_PKT_TYPE_NACK){
-		PJ_LOG(5,(THIS_FILE,"ACK or NACK received ,pktType %d", pkttype));
-	//	mediaCompSsnInfo->isDLChStatus = MEDIACOMP_TRUE;
-		goto on_return;
-	}*/
-    if (isCompModuleEnabled == TRUE){
-    	status =MediaComp_processInRTPpkt(&channel->rtp, pkt, (int)bytes_read,
-			    &hdr, &payload, &payloadlen);
-		if (channel->rtp.mediaCompSsn->dropkt){
-			channel->rtp.mediaCompSsn->dropkt = PJ_FALSE;
-			goto on_return;
-		}
-    }else{
-    status = pjmedia_rtp_decode_rtp(&channel->rtp, pkt, (int)bytes_read,
+    if (bytes_read < (pj_ssize_t) sizeof(pjmedia_rtp_hdr))
+	return;
+
     /* Update RTP and RTCP session. */
+    status = pjmedia_rtp_decode_rtp(&channel->rtp, pkt, (int)bytes_read,
 				    &hdr, &payload, &payloadlen);
-    }
     if (status != PJ_SUCCESS) {
 	LOGERR_((stream->port.info.name.ptr, "RTP decode error", status));
 	stream->rtcp.stat.rx.discard++;
@@ -2020,13 +1954,12 @@ static pj_status_t create_channel( pj_pool_t *pool,
     channel->out_pkt = pj_pool_alloc(pool, channel->out_pkt_size);
     PJ_ASSERT_RETURN(channel->out_pkt != NULL, PJ_ENOMEM);
 
-    PJ_LOG(5,(THIS_FILE,"create_channel : Direction %d ,param->rtp_seq_ts_set %d ",channel->dir, param->rtp_seq_ts_set));
+
 
     /* Create RTP and RTCP sessions: */
 
     if (param->rtp_seq_ts_set == 0) {
 	status = pjmedia_rtp_session_init(&channel->rtp, pt, param->ssrc);
-	MediaComp_DeComp_init(pool,&channel->rtp,channel->dir);
     } else {
 	pjmedia_rtp_session_setting settings;
 
@@ -2036,7 +1969,6 @@ static pj_status_t create_channel( pj_pool_t *pool,
 	settings.seq = param->rtp_seq;
 	settings.ts = param->rtp_ts;
 	status = pjmedia_rtp_session_init2(&channel->rtp, settings);
-	MediaComp_DeComp_init(pool,&channel->rtp,channel->dir);
     }
     if (status != PJ_SUCCESS)
 	return status;
@@ -2082,7 +2014,7 @@ PJ_DEF(pj_status_t) pjmedia_stream_create( pjmedia_endpt *endpt,
     stream = PJ_POOL_ZALLOC_T(pool, pjmedia_stream);
     PJ_ASSERT_RETURN(stream != NULL, PJ_ENOMEM);
     stream->own_pool = own_pool;
-    pj_memcpy(&stream->si,info, sizeof(*info));
+    pj_memcpy(&stream->si, info, sizeof(*info));
     pj_strdup(pool, &stream->si.fmt.encoding_name, &info->fmt.encoding_name);
     if (info->param)
 	stream->si.param = pjmedia_codec_param_clone(pool, info->param);
@@ -2346,9 +2278,6 @@ PJ_DEF(pj_status_t) pjmedia_stream_create( pjmedia_endpt *endpt,
     if (status != PJ_SUCCESS)
 	goto err_cleanup;
 
-     /* Set Codec Multiplying Values */
-
-    Set_Codec_Parameters(stream->si.fmt.encoding_name.ptr,stream->si.fmt.clock_rate);
 
     /* Init RTCP session: */
 
@@ -2570,7 +2499,7 @@ PJ_DEF(pj_status_t) pjmedia_stream_destroy( pjmedia_stream *stream )
 			 "Error sending RTP/DTMF end packet"));
 	}
     }
-    MediaComp_DeComp_deInit();
+
     /* Detach from transport
      * MUST NOT hold stream mutex while detaching from transport, as
      * it may cause deadlock. See ticket #460 for the details.

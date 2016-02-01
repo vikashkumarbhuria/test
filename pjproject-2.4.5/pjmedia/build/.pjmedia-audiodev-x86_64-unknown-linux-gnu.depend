@@ -8,12 +8,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/audiodev.o: ../src/pjmedia-audi
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -60,12 +59,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/audiotest.o: ../src/pjmedia-aud
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -161,12 +159,10 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/errno.o: ../src/pjmedia-audiode
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../../pjlib/include/pj/errno.h \
- ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
  /usr/include/string.h /usr/include/features.h \
@@ -201,7 +197,7 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/errno.o: ../src/pjmedia-audiode
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
  ../../pjlib/include/pj/unicode.h \
- /home/vikash/Documents/pjproject-2.4.5/third_party/portaudio/include/portaudio.h
+ /home/vikash/Downloads/original_project/pjproject-2.4.5/third_party/portaudio/include/portaudio.h
 output/pjmedia-audiodev-x86_64-unknown-linux-gnu/legacy_dev.o: ../src/pjmedia-audiodev/legacy_dev.c \
  /usr/include/stdc-predef.h ../include/pjmedia-audiodev/audiodev_imp.h \
  ../include/pjmedia-audiodev/audiodev.h \
@@ -212,12 +208,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/legacy_dev.o: ../src/pjmedia-au
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -264,12 +259,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/null_dev.o: ../src/pjmedia-audi
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -317,12 +311,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/pa_dev.o: ../src/pjmedia-audiod
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -360,7 +353,7 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/pa_dev.o: ../src/pjmedia-audiod
  ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
  /usr/include/assert.h ../../pjlib/include/pj/log.h \
  ../../pjlib/include/pj/os.h \
- /home/vikash/Documents/pjproject-2.4.5/third_party/portaudio/include/portaudio.h
+ /home/vikash/Downloads/original_project/pjproject-2.4.5/third_party/portaudio/include/portaudio.h
 output/pjmedia-audiodev-x86_64-unknown-linux-gnu/wmme_dev.o: ../src/pjmedia-audiodev/wmme_dev.c /usr/include/stdc-predef.h \
  ../include/pjmedia-audiodev/audiodev_imp.h \
  ../include/pjmedia-audiodev/audiodev.h \
@@ -371,12 +364,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/wmme_dev.o: ../src/pjmedia-audi
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -423,12 +415,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/alsa_dev.o: ../src/pjmedia-audi
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -477,12 +468,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/bb10_dev.o: ../src/pjmedia-audi
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -532,12 +522,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/bdimad_dev.o: ../src/pjmedia-au
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -586,12 +575,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/android_jni_dev.o: ../src/pjmed
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -639,12 +627,11 @@ output/pjmedia-audiodev-x86_64-unknown-linux-gnu/opensl_dev.o: ../src/pjmedia-au
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-audiodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-audiodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/format.h ../include/pjmedia/frame.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \

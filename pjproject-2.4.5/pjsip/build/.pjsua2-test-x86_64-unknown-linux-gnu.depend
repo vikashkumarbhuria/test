@@ -9,10 +9,9 @@ output/pjsua2-test-x86_64-unknown-linux-gnu/main.o: ../src/pjsua2-test/main.cpp 
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
@@ -111,10 +110,7 @@ output/pjsua2-test-x86_64-unknown-linux-gnu/main.o: ../src/pjsua2-test/main.cpp 
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- ../../pjmedia/include/pjmedia/rtp.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../pjmedia/include/pjmedia/rtp.h \
  ../../pjmedia/include/pjmedia/sdp_neg.h \
  ../../pjmedia/include/pjmedia/silencedet.h \
  ../../pjmedia/include/pjmedia/sound.h \
@@ -208,7 +204,8 @@ output/pjsua2-test-x86_64-unknown-linux-gnu/main.o: ../src/pjsua2-test/main.cpp 
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/ctype.h \
  ../../pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
@@ -255,6 +252,9 @@ output/pjsua2-test-x86_64-unknown-linux-gnu/main.o: ../src/pjsua2-test/main.cpp 
  /usr/include/c++/4.8/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h \
  /usr/include/c++/4.8/bits/basic_string.tcc /usr/include/c++/4.8/vector \
  /usr/include/c++/4.8/bits/stl_construct.h \

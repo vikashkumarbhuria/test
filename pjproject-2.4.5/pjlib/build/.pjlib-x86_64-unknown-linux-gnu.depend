@@ -3,10 +3,9 @@ output/pjlib-x86_64-unknown-linux-gnu/ioqueue_select.o: ../src/pj/ioqueue_select
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/os.h ../include/pj/lock.h ../include/pj/log.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h ../include/pj/list.h \
- ../include/pj/pool.h ../include/pj/string.h \
+ ../include/pj/config_site.h ../include/pj/os.h ../include/pj/lock.h \
+ ../include/pj/log.h /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+ ../include/pj/list.h ../include/pj/pool.h ../include/pj/string.h \
  ../include/pj/compat/string.h /usr/include/string.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -82,10 +81,9 @@ output/pjlib-x86_64-unknown-linux-gnu/file_access_unistd.o: ../src/pj/file_acces
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/errno.h \
@@ -123,10 +121,9 @@ output/pjlib-x86_64-unknown-linux-gnu/file_io_ansi.o: ../src/pj/file_io_ansi.c /
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/errno.h \
@@ -147,10 +144,9 @@ output/pjlib-x86_64-unknown-linux-gnu/os_core_unix.o: ../src/pj/os_core_unix.c /
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/pool.h \
@@ -204,8 +200,7 @@ output/pjlib-x86_64-unknown-linux-gnu/os_error_unix.o: ../src/pj/os_error_unix.c
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/compat/errno.h \
+ ../include/pj/config_site.h ../include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pj/string.h ../include/pj/compat/string.h \
  /usr/include/string.h /usr/include/features.h \
@@ -247,8 +242,8 @@ output/pjlib-x86_64-unknown-linux-gnu/os_time_unix.o: ../src/pj/os_time_unix.c /
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/errno.h ../include/pj/compat/errno.h \
+ ../include/pj/config_site.h ../include/pj/errno.h \
+ ../include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pj/compat/time.h /usr/include/time.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -277,8 +272,8 @@ output/pjlib-x86_64-unknown-linux-gnu/os_timestamp_posix.o: ../src/pj/os_timesta
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/errno.h ../include/pj/compat/errno.h \
+ ../include/pj/config_site.h ../include/pj/errno.h \
+ ../include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h /usr/include/stdio.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -323,10 +318,9 @@ output/pjlib-x86_64-unknown-linux-gnu/guid_simple.o: ../src/pj/guid_simple.c /us
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/rand.h \
@@ -365,10 +359,9 @@ output/pjlib-x86_64-unknown-linux-gnu/addr_resolv_sock.o: ../src/pj/addr_resolv_
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/string.h \
@@ -441,7 +434,7 @@ output/pjlib-x86_64-unknown-linux-gnu/log_writer_stdout.o: ../src/pj/log_writer_
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
+ ../include/pj/config_site.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h ../include/pj/os.h \
  ../include/pj/compat/stdfileio.h /usr/include/stdio.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -461,9 +454,9 @@ output/pjlib-x86_64-unknown-linux-gnu/os_timestamp_common.o: ../src/pj/os_timest
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/compat/high_precision.h /usr/include/math.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/compat/high_precision.h \
+ /usr/include/math.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -481,10 +474,9 @@ output/pjlib-x86_64-unknown-linux-gnu/pool_policy_malloc.o: ../src/pj/pool_polic
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/except.h ../include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/except.h \
+ ../include/pj/compat/setjmp.h /usr/include/setjmp.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -526,10 +518,9 @@ output/pjlib-x86_64-unknown-linux-gnu/sock_bsd.o: ../src/pj/sock_bsd.c /usr/incl
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/os.h ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/os.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/string.h \
@@ -602,9 +593,9 @@ output/pjlib-x86_64-unknown-linux-gnu/sock_select.o: ../src/pj/sock_select.c /us
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/compat/socket.h /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/compat/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -667,10 +658,9 @@ output/pjlib-x86_64-unknown-linux-gnu/activesock.o: ../src/pj/activesock.c /usr/
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/sock.h ../include/pj/compat/socket.h \
- /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/sock.h \
+ ../include/pj/compat/socket.h /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -743,10 +733,9 @@ output/pjlib-x86_64-unknown-linux-gnu/array.o: ../src/pj/array.c /usr/include/st
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/string.h ../include/pj/compat/string.h \
- /usr/include/string.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/string.h \
+ ../include/pj/compat/string.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -784,8 +773,7 @@ output/pjlib-x86_64-unknown-linux-gnu/config.o: ../src/pj/config.c /usr/include/
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/log.h ../include/pj/types.h \
+ ../include/pj/config_site.h ../include/pj/log.h ../include/pj/types.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pj/ioqueue.h
 output/pjlib-x86_64-unknown-linux-gnu/ctype.o: ../src/pj/ctype.c /usr/include/stdc-predef.h \
@@ -793,9 +781,9 @@ output/pjlib-x86_64-unknown-linux-gnu/ctype.o: ../src/pj/ctype.c /usr/include/st
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/compat/ctype.h /usr/include/ctype.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/compat/ctype.h \
+ /usr/include/ctype.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -809,8 +797,7 @@ output/pjlib-x86_64-unknown-linux-gnu/errno.o: ../src/pj/errno.c /usr/include/st
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/compat/errno.h \
+ ../include/pj/config_site.h ../include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h ../include/pj/log.h \
  ../include/pj/string.h ../include/pj/compat/string.h \
  /usr/include/string.h /usr/include/features.h \
@@ -851,9 +838,9 @@ output/pjlib-x86_64-unknown-linux-gnu/except.o: ../src/pj/except.c /usr/include/
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/compat/setjmp.h /usr/include/setjmp.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/compat/setjmp.h \
+ /usr/include/setjmp.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -895,8 +882,8 @@ output/pjlib-x86_64-unknown-linux-gnu/fifobuf.o: ../src/pj/fifobuf.c /usr/includ
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/log.h /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+ ../include/pj/config_site.h ../include/pj/log.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pj/assert.h ../include/pj/compat/assert.h \
  /usr/include/assert.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -908,9 +895,9 @@ output/pjlib-x86_64-unknown-linux-gnu/guid.o: ../src/pj/guid.c /usr/include/stdc
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/compat/ctype.h /usr/include/ctype.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/compat/ctype.h \
+ /usr/include/ctype.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -925,8 +912,8 @@ output/pjlib-x86_64-unknown-linux-gnu/hash.o: ../src/pj/hash.c /usr/include/stdc
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/log.h /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+ ../include/pj/config_site.h ../include/pj/log.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pj/string.h ../include/pj/compat/string.h \
  /usr/include/string.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -968,10 +955,10 @@ output/pjlib-x86_64-unknown-linux-gnu/ip_helper_generic.o: ../src/pj/ip_helper_g
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/addr_resolv.h ../include/pj/assert.h \
- ../include/pj/compat/assert.h /usr/include/assert.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/addr_resolv.h \
+ ../include/pj/assert.h ../include/pj/compat/assert.h \
+ /usr/include/assert.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/errno.h \
@@ -1044,17 +1031,15 @@ output/pjlib-x86_64-unknown-linux-gnu/list.o: ../src/pj/list.c /usr/include/stdc
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/list_i.h
+ ../include/pj/config_site.h ../include/pj/list_i.h
 output/pjlib-x86_64-unknown-linux-gnu/lock.o: ../src/pj/lock.c /usr/include/stdc-predef.h ../include/pj/lock.h \
  ../include/pj/types.h ../include/pj/config.h \
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/os.h ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/os.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/log.h \
@@ -1093,8 +1078,8 @@ output/pjlib-x86_64-unknown-linux-gnu/log.o: ../src/pj/log.c /usr/include/stdc-p
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/log.h /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+ ../include/pj/config_site.h ../include/pj/log.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pj/string.h ../include/pj/compat/string.h \
  /usr/include/string.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -1133,8 +1118,8 @@ output/pjlib-x86_64-unknown-linux-gnu/os_time_common.o: ../src/pj/os_time_common
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/compat/time.h /usr/include/time.h /usr/include/features.h \
+ ../include/pj/config_site.h ../include/pj/compat/time.h \
+ /usr/include/time.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1155,8 +1140,8 @@ output/pjlib-x86_64-unknown-linux-gnu/os_info.o: ../src/pj/os_info.c /usr/includ
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/ctype.h ../include/pj/compat/ctype.h /usr/include/ctype.h \
+ ../include/pj/config_site.h ../include/pj/ctype.h \
+ ../include/pj/compat/ctype.h /usr/include/ctype.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1203,8 +1188,8 @@ output/pjlib-x86_64-unknown-linux-gnu/pool.o: ../src/pj/pool.c /usr/include/stdc
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/log.h /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+ ../include/pj/config_site.h ../include/pj/log.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pj/except.h ../include/pj/compat/setjmp.h \
  /usr/include/setjmp.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -1248,10 +1233,9 @@ output/pjlib-x86_64-unknown-linux-gnu/pool_buf.o: ../src/pj/pool_buf.c /usr/incl
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/os.h
@@ -1261,8 +1245,8 @@ output/pjlib-x86_64-unknown-linux-gnu/pool_caching.o: ../src/pj/pool_caching.c /
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/log.h /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+ ../include/pj/config_site.h ../include/pj/log.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pj/string.h ../include/pj/compat/string.h \
  /usr/include/string.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -1303,10 +1287,9 @@ output/pjlib-x86_64-unknown-linux-gnu/pool_dbg.o: ../src/pj/pool_dbg.c /usr/incl
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/string.h ../include/pj/compat/string.h \
- /usr/include/string.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/string.h \
+ ../include/pj/compat/string.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -1342,10 +1325,9 @@ output/pjlib-x86_64-unknown-linux-gnu/rand.o: ../src/pj/rand.c /usr/include/stdc
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/os.h ../include/pj/types.h ../include/pj/compat/rand.h \
- /usr/include/stdlib.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/os.h ../include/pj/types.h \
+ ../include/pj/compat/rand.h /usr/include/stdlib.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -1372,17 +1354,15 @@ output/pjlib-x86_64-unknown-linux-gnu/rbtree.o: ../src/pj/rbtree.c /usr/include/
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/os.h
+ ../include/pj/config_site.h ../include/pj/os.h
 output/pjlib-x86_64-unknown-linux-gnu/sock_common.o: ../src/pj/sock_common.c /usr/include/stdc-predef.h \
  ../include/pj/sock.h ../include/pj/types.h ../include/pj/config.h \
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/ctype.h \
@@ -1458,10 +1438,9 @@ output/pjlib-x86_64-unknown-linux-gnu/sock_qos_common.o: ../src/pj/sock_qos_comm
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/errno.h \
@@ -1501,10 +1480,9 @@ output/pjlib-x86_64-unknown-linux-gnu/sock_qos_bsd.o: ../src/pj/sock_qos_bsd.c /
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/assert.h ../include/pj/compat/assert.h \
- /usr/include/assert.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/assert.h \
+ ../include/pj/compat/assert.h /usr/include/assert.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h ../include/pj/errno.h \
@@ -1544,8 +1522,8 @@ output/pjlib-x86_64-unknown-linux-gnu/ssl_sock_common.o: ../src/pj/ssl_sock_comm
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/sock.h ../include/pj/sock_qos.h ../include/pj/assert.h \
+ ../include/pj/config_site.h ../include/pj/sock.h \
+ ../include/pj/sock_qos.h ../include/pj/assert.h \
  ../include/pj/compat/assert.h /usr/include/assert.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -1587,8 +1565,8 @@ output/pjlib-x86_64-unknown-linux-gnu/ssl_sock_ossl.o: ../src/pj/ssl_sock_ossl.c
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/sock.h ../include/pj/sock_qos.h ../include/pj/activesock.h \
+ ../include/pj/config_site.h ../include/pj/sock.h \
+ ../include/pj/sock_qos.h ../include/pj/activesock.h \
  ../include/pj/compat/socket.h /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -1697,8 +1675,8 @@ output/pjlib-x86_64-unknown-linux-gnu/ssl_sock_dump.o: ../src/pj/ssl_sock_dump.c
  ../include/pj/compat/os_auto.h ../include/pj/compat/m_auto.h \
  ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/sock.h ../include/pj/sock_qos.h ../include/pj/errno.h \
+ ../include/pj/config_site.h ../include/pj/sock.h \
+ ../include/pj/sock_qos.h ../include/pj/errno.h \
  ../include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h ../include/pj/os.h \
  ../include/pj/string.h ../include/pj/compat/string.h \
@@ -1738,9 +1716,9 @@ output/pjlib-x86_64-unknown-linux-gnu/string.o: ../src/pj/string.c /usr/include/
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -1780,11 +1758,10 @@ output/pjlib-x86_64-unknown-linux-gnu/timer.o: ../src/pj/timer.c /usr/include/st
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/lock.h ../include/pj/pool.h ../include/pj/list.h \
- ../include/pj/os.h ../include/pj/string.h ../include/pj/compat/string.h \
- /usr/include/string.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../include/pj/config_site.h ../include/pj/lock.h ../include/pj/pool.h \
+ ../include/pj/list.h ../include/pj/os.h ../include/pj/string.h \
+ ../include/pj/compat/string.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -1823,5 +1800,4 @@ output/pjlib-x86_64-unknown-linux-gnu/types.o: ../src/pj/types.c /usr/include/st
  ../include/pj/compat/cc_gcc.h ../include/pj/compat/os_auto.h \
  ../include/pj/compat/m_auto.h ../include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../include/pj/config_site.h ../include/pj/config_site_sample.h \
- ../include/pj/os.h
+ ../include/pj/config_site.h ../include/pj/os.h

@@ -7,10 +7,9 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_acc.o: ../src/pjsua-lib/pjsua_ac
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
@@ -111,9 +110,7 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_acc.o: ../src/pjsua-lib/pjsua_ac
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- ../../pjmedia/include/pjmedia/rtp.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../pjmedia/include/pjmedia/rtp.h \
  ../../pjmedia/include/pjmedia/sdp_neg.h \
  ../../pjmedia/include/pjmedia/silencedet.h \
  ../../pjmedia/include/pjmedia/sound.h \
@@ -207,7 +204,8 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_acc.o: ../src/pjsua-lib/pjsua_ac
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/ctype.h \
  ../../pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
@@ -224,10 +222,9 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_call.o: ../src/pjsua-lib/pjsua_c
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
@@ -328,9 +325,7 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_call.o: ../src/pjsua-lib/pjsua_c
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- ../../pjmedia/include/pjmedia/rtp.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../pjmedia/include/pjmedia/rtp.h \
  ../../pjmedia/include/pjmedia/sdp_neg.h \
  ../../pjmedia/include/pjmedia/silencedet.h \
  ../../pjmedia/include/pjmedia/sound.h \
@@ -424,7 +419,8 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_call.o: ../src/pjsua-lib/pjsua_c
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/ctype.h \
  ../../pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
@@ -441,10 +437,9 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_core.o: ../src/pjsua-lib/pjsua_c
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
@@ -545,9 +540,7 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_core.o: ../src/pjsua-lib/pjsua_c
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- ../../pjmedia/include/pjmedia/rtp.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../pjmedia/include/pjmedia/rtp.h \
  ../../pjmedia/include/pjmedia/sdp_neg.h \
  ../../pjmedia/include/pjmedia/silencedet.h \
  ../../pjmedia/include/pjmedia/sound.h \
@@ -641,7 +634,8 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_core.o: ../src/pjsua-lib/pjsua_c
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/ctype.h \
  ../../pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
@@ -658,10 +652,9 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_im.o: ../src/pjsua-lib/pjsua_im.
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
@@ -762,9 +755,7 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_im.o: ../src/pjsua-lib/pjsua_im.
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- ../../pjmedia/include/pjmedia/rtp.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../pjmedia/include/pjmedia/rtp.h \
  ../../pjmedia/include/pjmedia/sdp_neg.h \
  ../../pjmedia/include/pjmedia/silencedet.h \
  ../../pjmedia/include/pjmedia/sound.h \
@@ -858,7 +849,8 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_im.o: ../src/pjsua-lib/pjsua_im.
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/ctype.h \
  ../../pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
@@ -875,10 +867,9 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_media.o: ../src/pjsua-lib/pjsua_
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
@@ -979,9 +970,7 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_media.o: ../src/pjsua-lib/pjsua_
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- ../../pjmedia/include/pjmedia/rtp.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../pjmedia/include/pjmedia/rtp.h \
  ../../pjmedia/include/pjmedia/sdp_neg.h \
  ../../pjmedia/include/pjmedia/silencedet.h \
  ../../pjmedia/include/pjmedia/sound.h \
@@ -1075,7 +1064,8 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_media.o: ../src/pjsua-lib/pjsua_
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/ctype.h \
  ../../pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
@@ -1092,10 +1082,9 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_pres.o: ../src/pjsua-lib/pjsua_p
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
@@ -1196,9 +1185,7 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_pres.o: ../src/pjsua-lib/pjsua_p
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- ../../pjmedia/include/pjmedia/rtp.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../pjmedia/include/pjmedia/rtp.h \
  ../../pjmedia/include/pjmedia/sdp_neg.h \
  ../../pjmedia/include/pjmedia/silencedet.h \
  ../../pjmedia/include/pjmedia/sound.h \
@@ -1292,7 +1279,8 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_pres.o: ../src/pjsua-lib/pjsua_p
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/ctype.h \
  ../../pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
@@ -1309,10 +1297,9 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_dump.o: ../src/pjsua-lib/pjsua_d
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
@@ -1413,9 +1400,7 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_dump.o: ../src/pjsua-lib/pjsua_d
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- ../../pjmedia/include/pjmedia/rtp.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../pjmedia/include/pjmedia/rtp.h \
  ../../pjmedia/include/pjmedia/sdp_neg.h \
  ../../pjmedia/include/pjmedia/silencedet.h \
  ../../pjmedia/include/pjmedia/sound.h \
@@ -1509,7 +1494,8 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_dump.o: ../src/pjsua-lib/pjsua_d
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/ctype.h \
  ../../pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
@@ -1526,10 +1512,9 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_aud.o: ../src/pjsua-lib/pjsua_au
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
@@ -1630,9 +1615,7 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_aud.o: ../src/pjsua-lib/pjsua_au
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- ../../pjmedia/include/pjmedia/rtp.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../pjmedia/include/pjmedia/rtp.h \
  ../../pjmedia/include/pjmedia/sdp_neg.h \
  ../../pjmedia/include/pjmedia/silencedet.h \
  ../../pjmedia/include/pjmedia/sound.h \
@@ -1726,7 +1709,8 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_aud.o: ../src/pjsua-lib/pjsua_au
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/ctype.h \
  ../../pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \
@@ -1743,10 +1727,9 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_vid.o: ../src/pjsua-lib/pjsua_vi
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
@@ -1847,9 +1830,7 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_vid.o: ../src/pjsua-lib/pjsua_vi
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
- ../../pjmedia/include/pjmedia/rtp.h /usr/include/pthread.h \
- /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../pjmedia/include/pjmedia/rtp.h \
  ../../pjmedia/include/pjmedia/sdp_neg.h \
  ../../pjmedia/include/pjmedia/silencedet.h \
  ../../pjmedia/include/pjmedia/sound.h \
@@ -1943,7 +1924,8 @@ output/pjsua-lib-x86_64-unknown-linux-gnu/pjsua_vid.o: ../src/pjsua-lib/pjsua_vi
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/ctype.h \
  ../../pjlib/include/pj/compat/ctype.h /usr/include/ctype.h \
  ../../pjlib/include/pj/except.h ../../pjlib/include/pj/compat/setjmp.h \
- /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../pjlib/include/pj/log.h ../../pjlib/include/pj/fifobuf.h \
  ../../pjlib/include/pj/file_access.h ../../pjlib/include/pj/file_io.h \
  ../../pjlib/include/pj/guid.h ../../pjlib/include/pj/hash.h \

@@ -26,8 +26,8 @@
  * @brief RTP packet and RTP session declarations.
  */
 #include <pjmedia/types.h>
-#include <pthread.h>
-//#include <pjmedia/mediacompressor.h>
+
+
 PJ_BEGIN_DECL
 
 
@@ -50,8 +50,8 @@ PJ_BEGIN_DECL
  *  - decoding RTP packet into RTP header and payload.
  *  - provide simple RTP session management (sequence number, etc.)
  *
- *
  * The RTP module does not use any dynamic memory at all.
+ *
  * \section P1 How to Use the RTP Module
  * 
  * First application must call #pjmedia_rtp_session_init() to initialize the RTP 
@@ -158,40 +158,13 @@ struct pjmedia_rtp_seq_session
     pj_uint32_t	    bad_seq;        /**< Last 'bad' seq number + 1	    */
     pj_uint32_t	    probation;      /**< Sequ. packets till source is valid */
 };
-#pragma pack(1)
-struct comp_feedback_ack_pkt
-{
-#if defined(PJ_IS_BIG_ENDIAN) && (PJ_IS_BIG_ENDIAN!=0)
-	pj_uint8_t pkt_typ:4;
-	pj_uint8_t status_bit:1;
-	pj_uint8_t length:3;
-#else
-    pj_uint8_t length:3;
-	pj_uint8_t status_bit:1;
-	pj_uint8_t pkt_typ:4;
-#endif
-    pj_uint16_t seq;
-    pj_uint32_t ts;
-};
-#pragma()
-typedef struct comp_feedback_ack_pkt compFBACKPkt;
+
 /**
  * @see pjmedia_rtp_seq_session
  */
 typedef struct pjmedia_rtp_seq_session pjmedia_rtp_seq_session;
 
-typedef struct MediaCompSsn
-{
-	pj_uint16_t sendFB;
-	pj_uint16_t dropkt;
-	pj_uint16_t pktSentRecvCnt;
-	pj_uint16_t pktSentRecvStatus;
-	pj_uint16_t timer_hndl;
-	pj_int32_t fdPktLen;
-	void *fbPkt;
-	void *comp_rtp_hdr; /*For sending channel will hold the constructed
-						header and for recv channel it holds deconstructed RTp headers  	*/
-}pjmedia_rtpcomp_session;
+
 /**
  * RTP session descriptor.
  */
@@ -203,8 +176,6 @@ struct pjmedia_rtp_session
     pj_uint32_t		    out_extseq; /**< Outgoing extended seq #.	    */
     pj_uint32_t		    peer_ssrc;  /**< Peer SSRC.			    */
     pj_uint32_t		    received;   /**< Number of received packets.    */
-    pjmedia_rtpcomp_session *mediaCompSsn;
-    pj_uint32_t         last_sent_timestamp; // Last timestamp
 };
 
 /**

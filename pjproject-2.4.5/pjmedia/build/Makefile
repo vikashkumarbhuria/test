@@ -44,8 +44,7 @@ export _CFLAGS 	:= $(CC_CFLAGS) $(OS_CFLAGS) $(HOST_CFLAGS) $(M_CFLAGS) \
 		   $(CC_INC)../../pjlib-util/include \
 		   $(CC_INC)../../pjmedia/include \
 		   $(CC_INC)../../pjnath/include \
-		   $(CC_INC)../.. 	
-export _CFLAGS	+= -g
+		   $(CC_INC)../..
 export _CXXFLAGS:= $(_CFLAGS) $(CC_CXXFLAGS) $(OS_CXXFLAGS) $(M_CXXFLAGS) \
 		   $(HOST_CXXFLAGS) $(CXXFLAGS)
 
@@ -76,7 +75,7 @@ export PJMEDIA_OBJS += $(OS_OBJS) $(M_OBJS) $(CC_OBJS) $(HOST_OBJS) \
 			types.o vid_codec.o vid_codec_util.o \
 			vid_port.o vid_stream.o vid_stream_info.o vid_tee.o \
 			wav_player.o wav_playlist.o wav_writer.o wave.o \
-			wsola.o mediacompressor.o rtphndlr.o mediamngrtimer.o
+			wsola.o
 
 export PJMEDIA_CFLAGS += $(_CFLAGS)
 export PJMEDIA_CXXFLAGS += $(_CXXFLAGS)

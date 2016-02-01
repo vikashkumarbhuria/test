@@ -9,14 +9,13 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/audio_codecs.o: ../src/pjmedia-cod
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -72,16 +71,15 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/ffmpeg_vid_codecs.o: ../src/pjmedi
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
- ../include/pjmedia/codec.h ../include/pjmedia/port.h \
- ../include/pjmedia/clock.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia-codec/config_auto.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -140,16 +138,15 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/openh264.o: ../src/pjmedia-codec/o
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
- ../include/pjmedia/codec.h ../include/pjmedia/port.h \
- ../include/pjmedia/clock.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia-codec/config_auto.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -196,8 +193,7 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/h263_packetizer.o: ../src/pjmedia-
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h ../include/pjmedia/types.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/types.h \
  ../include/pjmedia/config.h ../include/pjmedia/config_auto.h \
  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/assert.h \
  ../../pjlib/include/pj/compat/assert.h /usr/include/assert.h \
@@ -243,8 +239,7 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/h264_packetizer.o: ../src/pjmedia-
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h ../include/pjmedia/types.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/types.h \
  ../include/pjmedia/config.h ../include/pjmedia/config_auto.h \
  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/assert.h \
  ../../pjlib/include/pj/compat/assert.h /usr/include/assert.h \
@@ -292,16 +287,15 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/ipp_codecs.o: ../src/pjmedia-codec
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
- ../include/pjmedia/codec.h ../include/pjmedia/port.h \
- ../include/pjmedia/clock.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia-codec/config_auto.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -360,16 +354,15 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/silk.o: ../src/pjmedia-codec/silk.
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
- ../include/pjmedia/codec.h ../include/pjmedia/port.h \
- ../include/pjmedia/clock.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia-codec/config_auto.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -416,16 +409,15 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/l16.o: ../src/pjmedia-codec/l16.c 
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
- ../include/pjmedia/codec.h ../include/pjmedia/port.h \
- ../include/pjmedia/clock.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia-codec/config_auto.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -472,16 +464,15 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/gsm.o: ../src/pjmedia-codec/gsm.c 
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
- ../include/pjmedia/codec.h ../include/pjmedia/port.h \
- ../include/pjmedia/clock.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia-codec/config_auto.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -529,16 +520,15 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/speex_codec.o: ../src/pjmedia-code
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
- ../include/pjmedia/codec.h ../include/pjmedia/port.h \
- ../include/pjmedia/clock.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia-codec/config_auto.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -575,10 +565,10 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/speex_codec.o: ../src/pjmedia-code
  ../../pjlib/include/pj/list.h ../../pjlib/include/pj/pool.h \
  ../include/pjmedia/errno.h ../include/pjmedia/endpoint.h \
  ../include/pjmedia/sdp.h ../include/pjmedia/transport.h \
- /home/vikash/Documents/pjproject-2.4.5/third_party/speex/include/speex/speex.h \
- /home/vikash/Documents/pjproject-2.4.5/third_party/speex/include/speex/speex_bits.h \
- /home/vikash/Documents/pjproject-2.4.5/third_party/speex/include/speex/speex_types.h \
- /home/vikash/Documents/pjproject-2.4.5/third_party/build/speex/speex/speex_config_types.h \
+ /home/vikash/Downloads/original_project/pjproject-2.4.5/third_party/speex/include/speex/speex.h \
+ /home/vikash/Downloads/original_project/pjproject-2.4.5/third_party/speex/include/speex/speex_bits.h \
+ /home/vikash/Downloads/original_project/pjproject-2.4.5/third_party/speex/include/speex/speex_types.h \
+ /home/vikash/Downloads/original_project/pjproject-2.4.5/third_party/build/speex/speex/speex_config_types.h \
  ../../pjlib/include/pj/log.h
 output/pjmedia-codec-x86_64-unknown-linux-gnu/ilbc.o: ../src/pjmedia-codec/ilbc.c /usr/include/stdc-predef.h \
  ../include/pjmedia-codec/ilbc.h ../include/pjmedia-codec/types.h \
@@ -589,16 +579,15 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/ilbc.o: ../src/pjmedia-codec/ilbc.
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
- ../include/pjmedia/codec.h ../include/pjmedia/port.h \
- ../include/pjmedia/clock.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia-codec/config_auto.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -649,16 +638,15 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/g722.o: ../src/pjmedia-codec/g722.
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
- ../include/pjmedia/codec.h ../include/pjmedia/port.h \
- ../include/pjmedia/clock.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia-codec/config_auto.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -706,11 +694,9 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/g722_enc.o: ../src/pjmedia-codec/g
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/errno.h \
- ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
  /usr/include/assert.h /usr/include/features.h \
@@ -760,11 +746,9 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/g722_dec.o: ../src/pjmedia-codec/g
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/errno.h \
- ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
  /usr/include/assert.h /usr/include/features.h \
@@ -815,16 +799,15 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/g7221.o: ../src/pjmedia-codec/g722
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
- ../include/pjmedia/codec.h ../include/pjmedia/port.h \
- ../include/pjmedia/clock.h ../include/pjmedia/event.h \
- ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
- ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia-codec/config_auto.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/event.h ../include/pjmedia/format.h \
+ ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -882,11 +865,10 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/g7221_sdp_match.o: ../src/pjmedia-
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
@@ -930,11 +912,10 @@ output/pjmedia-codec-x86_64-unknown-linux-gnu/amr_sdp_match.o: ../src/pjmedia-co
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../include/pjmedia/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../include/pjmedia/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \

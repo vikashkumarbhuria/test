@@ -8,12 +8,11 @@ output/pjmedia-videodev-x86_64-unknown-linux-gnu/sdl_dev.o: ../src/pjmedia-video
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-videodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-videodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/event.h ../include/pjmedia/format.h \
  ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
@@ -60,12 +59,10 @@ output/pjmedia-videodev-x86_64-unknown-linux-gnu/errno.o: ../src/pjmedia-videode
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../../pjlib/include/pj/errno.h \
- ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
  /usr/include/string.h /usr/include/features.h \
@@ -110,12 +107,11 @@ output/pjmedia-videodev-x86_64-unknown-linux-gnu/videodev.o: ../src/pjmedia-vide
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-videodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-videodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/event.h ../include/pjmedia/format.h \
  ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
@@ -163,12 +159,11 @@ output/pjmedia-videodev-x86_64-unknown-linux-gnu/avi_dev.o: ../src/pjmedia-video
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-videodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-videodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/event.h ../include/pjmedia/format.h \
  ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
@@ -220,12 +215,11 @@ output/pjmedia-videodev-x86_64-unknown-linux-gnu/ffmpeg_dev.o: ../src/pjmedia-vi
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-videodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-videodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/event.h ../include/pjmedia/format.h \
  ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
@@ -274,12 +268,11 @@ output/pjmedia-videodev-x86_64-unknown-linux-gnu/colorbar_dev.o: ../src/pjmedia-
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-videodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-videodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/event.h ../include/pjmedia/format.h \
  ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
@@ -328,12 +321,11 @@ output/pjmedia-videodev-x86_64-unknown-linux-gnu/v4l2_dev.o: ../src/pjmedia-vide
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-videodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-videodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/event.h ../include/pjmedia/format.h \
  ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
@@ -383,12 +375,11 @@ output/pjmedia-videodev-x86_64-unknown-linux-gnu/opengl_dev.o: ../src/pjmedia-vi
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/pool.h \
- ../../pjlib/include/pj/list.h ../include/pjmedia-videodev/errno.h \
- ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../include/pjmedia-videodev/errno.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjmedia/event.h ../include/pjmedia/format.h \
  ../include/pjmedia/signatures.h ../include/pjmedia/frame.h \
@@ -435,12 +426,11 @@ output/pjmedia-videodev-x86_64-unknown-linux-gnu/util.o: ../src/pjmedia-videodev
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
- ../../pjlib/include/pj/types.h ../../pjlib/include/pj/string.h \
- ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \

@@ -1,4 +1,4 @@
-export PJDIR := /home/vikash/Documents/pjproject-2.4.5
+export PJDIR := /home/vikash/Downloads/original_project/pjproject-2.4.5
 include $(PJDIR)/version.mak
 export PJ_DIR := $(PJDIR)
 

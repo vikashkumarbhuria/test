@@ -7,10 +7,8 @@ output/pjsip-ua-x86_64-unknown-linux-gnu/sip_inv.o: ../src/pjsip-ua/sip_inv.c /u
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
- ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
  ../../pjlib-util/include/pjlib-util/types.h \
  ../../pjlib-util/include/pjlib-util/config.h \
@@ -78,11 +76,10 @@ output/pjsip-ua-x86_64-unknown-linux-gnu/sip_reg.o: ../src/pjsip-ua/sip_reg.c /u
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_auth.h \
- ../include/pjsip/sip_auth_msg.h ../include/pjsip/sip_msg.h \
- ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_auth.h ../include/pjsip/sip_auth_msg.h \
+ ../include/pjsip/sip_msg.h ../include/pjsip/sip_uri.h \
+ ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
  ../../pjlib-util/include/pjlib-util/types.h \
  ../../pjlib-util/include/pjlib-util/config.h \
@@ -143,10 +140,8 @@ output/pjsip-ua-x86_64-unknown-linux-gnu/sip_replaces.o: ../src/pjsip-ua/sip_rep
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
- ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
  ../../pjlib-util/include/pjlib-util/types.h \
  ../../pjlib-util/include/pjlib-util/config.h \
@@ -212,10 +207,9 @@ output/pjsip-ua-x86_64-unknown-linux-gnu/sip_xfer.o: ../src/pjsip-ua/sip_xfer.c 
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_msg.h \
- ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_msg.h ../include/pjsip/sip_uri.h \
+ ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
  ../../pjlib-util/include/pjlib-util/types.h \
  ../../pjlib-util/include/pjlib-util/config.h \
@@ -276,10 +270,8 @@ output/pjsip-ua-x86_64-unknown-linux-gnu/sip_100rel.o: ../src/pjsip-ua/sip_100re
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
- ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
  ../../pjlib-util/include/pjlib-util/types.h \
  ../../pjlib-util/include/pjlib-util/config.h \
@@ -347,10 +339,8 @@ output/pjsip-ua-x86_64-unknown-linux-gnu/sip_timer.o: ../src/pjsip-ua/sip_timer.
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../include/pjsip/sip_autoconf.h ../include/pjsip/sip_uri.h \
- ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjsip/sip_autoconf.h \
+ ../include/pjsip/sip_uri.h ../../pjlib/include/pj/list.h \
  ../../pjlib-util/include/pjlib-util/scanner.h \
  ../../pjlib-util/include/pjlib-util/types.h \
  ../../pjlib-util/include/pjlib-util/config.h \

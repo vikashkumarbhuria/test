@@ -7,8 +7,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/cipher.o: ../../srtp/crypto/cipher/ciphe
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -66,8 +65,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/null_cipher.o: ../../srtp/crypto/cipher/
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -126,7 +124,6 @@ output/libsrtp-x86_64-unknown-linux-gnu/aes.o: ../../srtp/crypto/cipher/aes.c /u
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
  ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
  ../../srtp/crypto/include/datatypes.h \
  ../../srtp/crypto/include/integers.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -186,7 +183,6 @@ output/libsrtp-x86_64-unknown-linux-gnu/aes_icm.o: ../../srtp/crypto/cipher/aes_
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
  ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
  ../../srtp/crypto/include/datatypes.h \
  ../../srtp/crypto/include/integers.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -248,7 +244,6 @@ output/libsrtp-x86_64-unknown-linux-gnu/aes_cbc.o: ../../srtp/crypto/cipher/aes_
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
  ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
  ../../srtp/crypto/include/datatypes.h \
  ../../srtp/crypto/include/integers.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -310,8 +305,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/null_auth.o: ../../srtp/crypto/hash/null
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -369,8 +363,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/sha1.o: ../../srtp/crypto/hash/sha1.c /u
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -427,8 +420,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/hmac.o: ../../srtp/crypto/hash/hmac.c /u
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -485,8 +477,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/auth.o: ../../srtp/crypto/hash/auth.c /u
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -542,8 +533,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/datatypes.o: ../../srtp/crypto/math/data
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -599,8 +589,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/stat.o: ../../srtp/crypto/math/stat.c /u
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -658,8 +647,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/crypto_kernel.o: ../../srtp/crypto/kerne
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -724,8 +712,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/alloc.o: ../../srtp/crypto/kernel/alloc.
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -791,8 +778,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/key.o: ../../srtp/crypto/kernel/key.c /u
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -847,8 +833,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/rand_source.o: ../../srtp/crypto/rng/ran
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/fcntl.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/fcntl.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -916,8 +901,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/prng.o: ../../srtp/crypto/rng/prng.c /us
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -976,8 +960,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/ctr_prng.o: ../../srtp/crypto/rng/ctr_pr
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1035,8 +1018,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/srtp_err.o: ../../srtp/pjlib/srtp_err.c 
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1092,8 +1074,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/rdb.o: ../../srtp/crypto/replay/rdb.c /u
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1149,8 +1130,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/rdbx.o: ../../srtp/crypto/replay/rdbx.c 
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1206,8 +1186,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/ut_sim.o: ../../srtp/crypto/replay/ut_si
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1244,8 +1223,7 @@ output/libsrtp-x86_64-unknown-linux-gnu/srtp.o: ../../srtp/srtp/srtp.c /usr/incl
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h /usr/include/stdlib.h \
+ ../../../pjlib/include/pj/config_site.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \

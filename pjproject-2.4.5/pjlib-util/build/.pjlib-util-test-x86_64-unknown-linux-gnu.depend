@@ -5,11 +5,9 @@ output/pjlib-util-test-x86_64-unknown-linux-gnu/main.o: ../src/pjlib-util-test/m
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
- ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
- /usr/include/string.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ ../../pjlib/include/pj/config_site.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h /usr/include/string.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h \
@@ -47,8 +45,7 @@ output/pjlib-util-test-x86_64-unknown-linux-gnu/xml.o: ../src/pjlib-util-test/xm
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h ../include/pjlib-util/xml.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjlib-util/xml.h \
  ../../pjlib/include/pj/list.h ../../pjlib/include/pjlib.h \
  ../../pjlib/include/pj/activesock.h ../../pjlib/include/pj/ioqueue.h \
  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/addr_resolv.h \
@@ -118,8 +115,7 @@ output/pjlib-util-test-x86_64-unknown-linux-gnu/encryption.o: ../src/pjlib-util-
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h ../include/pjlib-util.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjlib-util.h \
  ../include/pjlib-util/errno.h ../../pjlib/include/pj/errno.h \
  ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
@@ -207,7 +203,6 @@ output/pjlib-util-test-x86_64-unknown-linux-gnu/resolver_test.o: ../src/pjlib-ut
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
  ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h \
  ../../pjlib/include/pj/compat/errno.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../include/pjlib-util/types.h ../include/pjlib-util/config.h \
@@ -290,8 +285,7 @@ output/pjlib-util-test-x86_64-unknown-linux-gnu/test.o: ../src/pjlib-util-test/t
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h ../../pjlib/include/pjlib.h \
+ ../../pjlib/include/pj/config_site.h ../../pjlib/include/pjlib.h \
  ../../pjlib/include/pj/activesock.h ../../pjlib/include/pj/ioqueue.h \
  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/addr_resolv.h \
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/assert.h \
@@ -374,8 +368,7 @@ output/pjlib-util-test-x86_64-unknown-linux-gnu/json_test.o: ../src/pjlib-util-t
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h ../include/pjlib-util/json.h \
+ ../../pjlib/include/pj/config_site.h ../include/pjlib-util/json.h \
  ../../pjlib/include/pj/list.h ../../pjlib/include/pj/pool.h \
  ../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
@@ -419,8 +412,7 @@ output/pjlib-util-test-x86_64-unknown-linux-gnu/http_client.o: ../src/pjlib-util
  ../../pjlib/include/pj/compat/m_auto.h \
  ../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../pjlib/include/pj/config_site.h \
- ../../pjlib/include/pj/config_site_sample.h ../../pjlib/include/pjlib.h \
+ ../../pjlib/include/pj/config_site.h ../../pjlib/include/pjlib.h \
  ../../pjlib/include/pj/activesock.h ../../pjlib/include/pj/ioqueue.h \
  ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/addr_resolv.h \
  ../../pjlib/include/pj/array.h ../../pjlib/include/pj/assert.h \
@@ -495,4 +487,4 @@ output/pjlib-util-test-x86_64-unknown-linux-gnu/http_client.o: ../src/pjlib-util
  ../include/pjlib-util/pcap.h ../include/pjlib-util/http_client.h \
  ../include/pjlib-util/cli.h ../include/pjlib-util/cli_console.h \
  ../include/pjlib-util/cli_imp.h ../include/pjlib-util/cli_telnet.h
-../bin/pjlib-util-test-x86_64-unknown-linux-gnu: ../lib/libpjlib-util-x86_64-unknown-linux-gnu.a /home/vikash/Documents/pjproject-2.4.5/pjlib/lib/libpj-x86_64-unknown-linux-gnu.a
+../bin/pjlib-util-test-x86_64-unknown-linux-gnu: ../lib/libpjlib-util-x86_64-unknown-linux-gnu.a /home/vikash/Downloads/original_project/pjproject-2.4.5/pjlib/lib/libpj-x86_64-unknown-linux-gnu.a

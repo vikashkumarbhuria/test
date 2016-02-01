@@ -5,9 +5,7 @@ output/libspeex-x86_64-unknown-linux-gnu/bits.o: ../../speex/libspeex/bits.c /us
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/include/speex/speex_bits.h ../../speex/libspeex/arch.h \
  ../../speex/include/speex/speex_types.h speex/speex_config_types.h \
@@ -50,9 +48,7 @@ output/libspeex-x86_64-unknown-linux-gnu/cb_search.o: ../../speex/libspeex/cb_se
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/cb_search.h ../../speex/include/speex/speex_bits.h \
  ../../speex/libspeex/arch.h ../../speex/include/speex/speex_types.h \
@@ -110,9 +106,7 @@ output/libspeex-x86_64-unknown-linux-gnu/fftwrap.o: ../../speex/libspeex/fftwrap
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/arch.h ../../speex/include/speex/speex_types.h \
  speex/speex_config_types.h ../../speex/libspeex/os_support.h \
@@ -164,9 +158,7 @@ output/libspeex-x86_64-unknown-linux-gnu/filterbank.o: ../../speex/libspeex/filt
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/filterbank.h ../../speex/libspeex/arch.h \
  ../../speex/include/speex/speex_types.h speex/speex_config_types.h \
@@ -219,9 +211,7 @@ output/libspeex-x86_64-unknown-linux-gnu/filters.o: ../../speex/libspeex/filters
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/filters.h ../../speex/libspeex/arch.h \
  ../../speex/include/speex/speex_types.h speex/speex_config_types.h \
@@ -258,9 +248,7 @@ output/libspeex-x86_64-unknown-linux-gnu/kiss_fft.o: ../../speex/libspeex/kiss_f
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/_kiss_fft_guts.h ../../speex/libspeex/kiss_fft.h \
  /usr/include/stdlib.h /usr/include/features.h \
@@ -313,9 +301,7 @@ output/libspeex-x86_64-unknown-linux-gnu/kiss_fftr.o: ../../speex/libspeex/kiss_
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/os_support.h /usr/include/string.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -367,9 +353,7 @@ output/libspeex-x86_64-unknown-linux-gnu/lpc.o: ../../speex/libspeex/lpc.c /usr/
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/lpc.h ../../speex/libspeex/arch.h \
  ../../speex/include/speex/speex_types.h speex/speex_config_types.h
@@ -380,9 +364,7 @@ output/libspeex-x86_64-unknown-linux-gnu/lsp.o: ../../speex/libspeex/lsp.c /usr/
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h /usr/include/math.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -408,9 +390,7 @@ output/libspeex-x86_64-unknown-linux-gnu/ltp.o: ../../speex/libspeex/ltp.c /usr/
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h /usr/include/math.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -462,9 +442,7 @@ output/libspeex-x86_64-unknown-linux-gnu/mdf.o: ../../speex/libspeex/mdf.c /usr/
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/arch.h ../../speex/include/speex/speex_types.h \
  speex/speex_config_types.h ../../speex/include/speex/speex_echo.h \
@@ -516,9 +494,7 @@ output/libspeex-x86_64-unknown-linux-gnu/modes.o: ../../speex/libspeex/modes.c /
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/modes.h ../../speex/include/speex/speex.h \
  ../../speex/include/speex/speex_bits.h \
@@ -549,9 +525,7 @@ output/libspeex-x86_64-unknown-linux-gnu/modes_wb.o: ../../speex/libspeex/modes_
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/modes.h ../../speex/include/speex/speex.h \
  ../../speex/include/speex/speex_bits.h \
@@ -609,9 +583,7 @@ output/libspeex-x86_64-unknown-linux-gnu/nb_celp.o: ../../speex/libspeex/nb_celp
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h /usr/include/math.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -670,9 +642,7 @@ output/libspeex-x86_64-unknown-linux-gnu/preprocess.o: ../../speex/libspeex/prep
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h /usr/include/math.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -726,9 +696,7 @@ output/libspeex-x86_64-unknown-linux-gnu/quant_lsp.o: ../../speex/libspeex/quant
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/quant_lsp.h ../../speex/include/speex/speex_bits.h \
  ../../speex/libspeex/arch.h ../../speex/include/speex/speex_types.h \
@@ -780,9 +748,7 @@ output/libspeex-x86_64-unknown-linux-gnu/resample.o: ../../speex/libspeex/resamp
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/include/speex/speex_resampler.h \
  ../../speex/include/speex/speex_types.h speex/speex_config_types.h \
@@ -835,9 +801,7 @@ output/libspeex-x86_64-unknown-linux-gnu/sb_celp.o: ../../speex/libspeex/sb_celp
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h /usr/include/math.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -897,9 +861,7 @@ output/libspeex-x86_64-unknown-linux-gnu/smallft.o: ../../speex/libspeex/smallft
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h /usr/include/math.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -949,9 +911,7 @@ output/libspeex-x86_64-unknown-linux-gnu/speex.o: ../../speex/libspeex/speex.c /
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/modes.h ../../speex/include/speex/speex.h \
  ../../speex/include/speex/speex_bits.h \
@@ -1004,9 +964,7 @@ output/libspeex-x86_64-unknown-linux-gnu/speex_callbacks.o: ../../speex/libspeex
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/include/speex/speex_callbacks.h \
  ../../speex/include/speex/speex.h ../../speex/include/speex/speex_bits.h \
@@ -1051,9 +1009,7 @@ output/libspeex-x86_64-unknown-linux-gnu/speex_header.o: ../../speex/libspeex/sp
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/arch.h ../../speex/include/speex/speex_types.h \
  speex/speex_config_types.h ../../speex/include/speex/speex_header.h \
@@ -1097,9 +1053,7 @@ output/libspeex-x86_64-unknown-linux-gnu/stereo.o: ../../speex/libspeex/stereo.c
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/include/speex/speex_stereo.h \
  ../../speex/include/speex/speex_types.h speex/speex_config_types.h \
@@ -1154,9 +1108,7 @@ output/libspeex-x86_64-unknown-linux-gnu/vbr.o: ../../speex/libspeex/vbr.c /usr/
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/vbr.h ../../speex/libspeex/arch.h \
  ../../speex/include/speex/speex_types.h speex/speex_config_types.h \
@@ -1180,9 +1132,7 @@ output/libspeex-x86_64-unknown-linux-gnu/vq.o: ../../speex/libspeex/vq.c /usr/in
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/vq.h ../../speex/libspeex/arch.h \
  ../../speex/include/speex/speex_types.h speex/speex_config_types.h \
@@ -1195,9 +1145,7 @@ output/libspeex-x86_64-unknown-linux-gnu/window.o: ../../speex/libspeex/window.c
  ../../../pjlib/include/pj/compat/m_auto.h \
  ../../../pjlib/include/pj/compat/size_t.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- ../../../pjlib/include/pj/config_site.h \
- ../../../pjlib/include/pj/config_site_sample.h \
- ../../../pjlib/include/pj/log.h \
+ ../../../pjlib/include/pj/config_site.h ../../../pjlib/include/pj/log.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  ../../speex/libspeex/arch.h ../../speex/include/speex/speex_types.h \
  speex/speex_config_types.h
